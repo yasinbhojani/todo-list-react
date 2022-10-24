@@ -1,0 +1,14 @@
+.container {
+  margin: 10rem 0;
+}
+
+.todo-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    margin: 3rem 0;
+  }
+}

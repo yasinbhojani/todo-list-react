@@ -1,0 +1,32 @@
+.listitem {
+  border: 2px solid #bbb;
+  border-radius: 7px;
+  padding: 10px 20px;
+  margin: 15px 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+}
+
+.controls button {
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  margin-left: 15px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 100ms box-shadow ease-in;
+}
+
+.controls button:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px, rgba(0, 0, 0, 0.3) 0px 1px 2px;
+}

@@ -1,0 +1,21 @@
+.card {
+  background-color: #fefefe;
+  max-width: 32em;
+  min-width: 32em;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: 2px solid #bbb;
+}
+
+@media screen and (max-width: 1400px) {
+  .card {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    min-width: 80%;
+  }
+}

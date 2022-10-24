@@ -1,0 +1,16 @@
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border: 2px solid #bbb;
+  border-radius: 7px;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.input--large {
+  height: 80px;
+  font-weight: normal;
+  color: #666;
+}

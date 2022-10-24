@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+}
+
+.container input {
+  cursor: pointer;
+  margin: 0 20px 0 0;
+  width: 18px;
+}
+
+.content {
+  max-width: 19rem;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 1.3em;
+  margin: 5px 0;
+  overflow: hidden;
+}
+
+.description {
+  color: #666;
+  font-size: 0.9em;
+  max-height: 3.7rem;
+  overflow: hidden;
+  margin: 7px 0;
+}

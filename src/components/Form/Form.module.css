@@ -1,0 +1,33 @@
+.form {
+  margin: 3rem 0;
+  position: fixed;
+  top: 50%;
+  left: 17%;
+  transform: translate(-17%, -50%);
+}
+
+.btn {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #bbb;
+  border-radius: 7px;
+  padding: 20px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: 200ms all ease-in-out;
+}
+
+.btn:hover {
+  background-color: #bbb;
+  color: black;
+}
+
+@media screen and (max-width: 1400px) {
+  .form {
+    margin-top: 8em;
+    position: unset;
+    transform: unset;
+  }
+}
