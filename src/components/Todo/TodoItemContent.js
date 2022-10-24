@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+import TodoContext from "../../context/todo-context";
 
 import classes from "./TodoItemContent.module.css";
 
 const TodoItemContent = (props) => {
+  const todoCtx = useContext(TodoContext);
   const checkBoxChangeHandler = () => {
-    console.log(props.id)
+    todoCtx.completeTodo(props.id);
   };
 
   return (
@@ -16,7 +18,11 @@ const TodoItemContent = (props) => {
       />
       <div className={classes.content}>
         <p className={classes.heading}>{props.heading}</p>
-        <p className={classes.description}>{props.description}</p>
+        {props.description !== "" ? (
+          <p className={classes.description}>{props.description}</p>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
